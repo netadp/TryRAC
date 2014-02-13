@@ -20,6 +20,12 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+	
+	self.apiHelper = [[PXAPIHelper alloc]initWithHost:nil
+										  consumerKey:@"DC2To2BS0ic1ChKDK15d44M42YHf9gbUJgdFoF0m"
+									   consumerSecret:@"i8WL4chWoZ4kw9fh3jzHK7XzTer1y5tUNvsTFNnB"];
+	
+	
     return YES;
 }
 

@@ -14,4 +14,9 @@
 	#import <UIKit/UIKit.h>
 	#import <Foundation/Foundation.h>
 	#import <CoreData/CoreData.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <500px-iOS-api/PXAPI.h>
+#import	 <libextobjc/EXTScope.h>
+#import	 "FRPAppDelegate.h"
+#define AppDelegate ((FRPAppDelegate *)[[UIApplication sharedApplication]delegate])
 #endif

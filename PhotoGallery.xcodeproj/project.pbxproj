@@ -27,6 +27,9 @@
 		C65F8F9B18AD19420039A5DD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C65F8F7F18AD19420039A5DD /* CoreData.framework */; };
 		C65F8FA318AD19420039A5DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C65F8FA118AD19420039A5DD /* InfoPlist.strings */; };
 		C65F8FA518AD19420039A5DD /* PhotoGalleryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C65F8FA418AD19420039A5DD /* PhotoGalleryTests.m */; };
+		C692CB8218B0FE56008A7BC9 /* FRPCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C692CB8118B0FE56008A7BC9 /* FRPCell.m */; };
+		C692CB8518B10661008A7BC9 /* FRPFullSizePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C692CB8418B10661008A7BC9 /* FRPFullSizePhotoViewController.m */; };
+		C692CB8818B10AE3008A7BC9 /* FRPPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C692CB8718B10AE3008A7BC9 /* FRPPhotoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +45,11 @@
 /* Begin PBXFileReference section */
 		86B69486CC8D41A4960B7B98 /* libPods-PhotoGallery.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PhotoGallery.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		937D1758E80C47CAB365D0E7 /* Pods-PhotoGallery.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoGallery.xcconfig"; path = "Pods/Pods-PhotoGallery.xcconfig"; sourceTree = "<group>"; };
-		C611CFEC18AD20410079CD6D /* libPods-PhotoGallery-ReactiveCocoa.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libPods-PhotoGallery-ReactiveCocoa.a"; path = "Pods/build/Debug-iphoneos/libPods-PhotoGallery-ReactiveCocoa.a"; sourceTree = "<group>"; };
-		C611CFEE18AD20480079CD6D /* libPods-PhotoGallery-500px-iOS-api.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libPods-PhotoGallery-500px-iOS-api.a"; path = "Pods/build/Debug-iphoneos/libPods-PhotoGallery-500px-iOS-api.a"; sourceTree = "<group>"; };
-		C611CFEF18AD20480079CD6D /* libPods-PhotoGallery-libextobjc.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libPods-PhotoGallery-libextobjc.a"; path = "Pods/build/Debug-iphoneos/libPods-PhotoGallery-libextobjc.a"; sourceTree = "<group>"; };
-		C611CFF018AD20480079CD6D /* libPods-PhotoGallery-libffi.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libPods-PhotoGallery-libffi.a"; path = "Pods/build/Debug-iphoneos/libPods-PhotoGallery-libffi.a"; sourceTree = "<group>"; };
-		C611CFF118AD20480079CD6D /* libPods-PhotoGallery-SVProgressHUD.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libPods-PhotoGallery-SVProgressHUD.a"; path = "Pods/build/Debug-iphoneos/libPods-PhotoGallery-SVProgressHUD.a"; sourceTree = "<group>"; };
+		C611CFEC18AD20410079CD6D /* libPods-PhotoGallery-ReactiveCocoa.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-PhotoGallery-ReactiveCocoa.a"; path = "Pods/build/Debug-iphoneos/libPods-PhotoGallery-ReactiveCocoa.a"; sourceTree = "<group>"; };
+		C611CFEE18AD20480079CD6D /* libPods-PhotoGallery-500px-iOS-api.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-PhotoGallery-500px-iOS-api.a"; path = "Pods/build/Debug-iphoneos/libPods-PhotoGallery-500px-iOS-api.a"; sourceTree = "<group>"; };
+		C611CFEF18AD20480079CD6D /* libPods-PhotoGallery-libextobjc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-PhotoGallery-libextobjc.a"; path = "Pods/build/Debug-iphoneos/libPods-PhotoGallery-libextobjc.a"; sourceTree = "<group>"; };
+		C611CFF018AD20480079CD6D /* libPods-PhotoGallery-libffi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-PhotoGallery-libffi.a"; path = "Pods/build/Debug-iphoneos/libPods-PhotoGallery-libffi.a"; sourceTree = "<group>"; };
+		C611CFF118AD20480079CD6D /* libPods-PhotoGallery-SVProgressHUD.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-PhotoGallery-SVProgressHUD.a"; path = "Pods/build/Debug-iphoneos/libPods-PhotoGallery-SVProgressHUD.a"; sourceTree = "<group>"; };
 		C611CFF718AD21950079CD6D /* FRPGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRPGalleryViewController.h; path = PhotoGallery/FRPGalleryViewController.h; sourceTree = "<group>"; };
 		C611CFF818AD21950079CD6D /* FRPGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRPGalleryViewController.m; path = PhotoGallery/FRPGalleryViewController.m; sourceTree = "<group>"; };
 		C611CFFA18AD21C80079CD6D /* FRPGalleryFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRPGalleryFlowLayout.h; path = PhotoGallery/FRPGalleryFlowLayout.h; sourceTree = "<group>"; };
@@ -73,6 +76,12 @@
 		C65F8FA018AD19420039A5DD /* PhotoGalleryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoGalleryTests-Info.plist"; sourceTree = "<group>"; };
 		C65F8FA218AD19420039A5DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C65F8FA418AD19420039A5DD /* PhotoGalleryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoGalleryTests.m; sourceTree = "<group>"; };
+		C692CB8018B0FE56008A7BC9 /* FRPCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRPCell.h; path = PhotoGallery/FRPCell.h; sourceTree = "<group>"; };
+		C692CB8118B0FE56008A7BC9 /* FRPCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRPCell.m; path = PhotoGallery/FRPCell.m; sourceTree = "<group>"; };
+		C692CB8318B10661008A7BC9 /* FRPFullSizePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRPFullSizePhotoViewController.h; path = PhotoGallery/FRPFullSizePhotoViewController.h; sourceTree = "<group>"; };
+		C692CB8418B10661008A7BC9 /* FRPFullSizePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRPFullSizePhotoViewController.m; path = PhotoGallery/FRPFullSizePhotoViewController.m; sourceTree = "<group>"; };
+		C692CB8618B10AE3008A7BC9 /* FRPPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FRPPhotoViewController.h; path = PhotoGallery/FRPPhotoViewController.h; sourceTree = "<group>"; };
+		C692CB8718B10AE3008A7BC9 /* FRPPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FRPPhotoViewController.m; path = PhotoGallery/FRPPhotoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +122,12 @@
 				C611CFFE18AD22B70079CD6D /* FRPPhotoModel.m */,
 				C611D00018AD23650079CD6D /* FRPPhotoImporter.h */,
 				C611D00118AD23650079CD6D /* FRPPhotoImporter.m */,
+				C692CB8018B0FE56008A7BC9 /* FRPCell.h */,
+				C692CB8118B0FE56008A7BC9 /* FRPCell.m */,
+				C692CB8318B10661008A7BC9 /* FRPFullSizePhotoViewController.h */,
+				C692CB8418B10661008A7BC9 /* FRPFullSizePhotoViewController.m */,
+				C692CB8618B10AE3008A7BC9 /* FRPPhotoViewController.h */,
+				C692CB8718B10AE3008A7BC9 /* FRPPhotoViewController.m */,
 			);
 			name = PhotoGallery;
 			sourceTree = "<group>";
@@ -332,8 +347,11 @@
 				C611CFF918AD21950079CD6D /* FRPGalleryViewController.m in Sources */,
 				C611CFFF18AD22B70079CD6D /* FRPPhotoModel.m in Sources */,
 				C611CFFC18AD21C80079CD6D /* FRPGalleryFlowLayout.m in Sources */,
+				C692CB8218B0FE56008A7BC9 /* FRPCell.m in Sources */,
 				C65F8F8F18AD19420039A5DD /* PhotoGallery.xcdatamodeld in Sources */,
+				C692CB8818B10AE3008A7BC9 /* FRPPhotoViewController.m in Sources */,
 				C65F8F8818AD19420039A5DD /* main.m in Sources */,
+				C692CB8518B10661008A7BC9 /* FRPFullSizePhotoViewController.m in Sources */,
 				C65F8F8C18AD19420039A5DD /* FRPAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

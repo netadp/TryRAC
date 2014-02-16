@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+@class FRPPhotoModel;
 @interface FRPPhotoImporter : NSObject
 + (RACSignal *)importPhotos;
++ (RACSignal *)fetchPhotoDetails:(FRPPhotoModel *)photoModel;
 @end

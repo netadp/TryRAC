@@ -8,6 +8,5 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FRPGalleryViewController : UICollectionViewController
-
+@interface FRPGalleryViewController : UIViewController
 @end
